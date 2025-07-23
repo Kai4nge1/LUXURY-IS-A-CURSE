@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LUXURY IS A CURSE</title>
+  <style>
+    @keyframes flicker {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    body {
+      background: black;
+      color: white;
+      font-family: 'Courier New', monospace;
+      text-align: center;
+      margin: 0;
+      animation: flicker 0.4s infinite;
+      overflow: hidden;
+      cursor: url('https://cur.cursors-4u.net/cursors/cur-13/cur1166.cur'), auto;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-top: 20px;
+      text-shadow: 0 0 10px red, 0 0 20px crimson;
+      animation: flicker 0.3s infinite;
+    }
+
+    .album-cover {
+      width: 80%;
+      max-width: 500px;
+      margin-top: 30px;
+      border: 4px solid white;
+      box-shadow: 0 0 20px red;
+      animation: flicker 0.5s infinite alternate;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="LoL v final.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+
+  <img src="5467399394379823188.jpg" alt="Album Cover" class="album-cover" />
+  <h1>LUXURY IS A CURSE</h1>
+</body>
+</html>
